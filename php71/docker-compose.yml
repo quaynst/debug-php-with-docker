@@ -7,3 +7,7 @@ services:
 #      - "9000:9000"
     volumes:
       - "./:/var/www/html"
+    tty: true
+    stdin_open: true
+    privileged: true
+#    command: /sbin/init
